@@ -43,7 +43,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white" aria-labelledby="footer-heading">
+    <footer className="bg-black text-white" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -58,10 +58,14 @@ export default function Footer() {
               />
               <span className="text-xl font-semibold tracking-wide">
                 ZORO EVENTS
+                <br />
               </span>
             </div>
+            <span className="text-base font-semibold tracking-wide">
+              Your Story. Our Stage.
+            </span>
+
             <p className="mt-4 text-sm text-gray-400 leading-6">
-              Your Story. Our Stage. <br />
               From spectacular corporate events and unforgettable weddings to
               high-energy college fests, we bring your vision to life with
               precision and passion.

@@ -6,21 +6,21 @@ const services = [
     title: "Corporate & Expos",
     description:
       "From high-impact product launches to large-scale expositions, we deliver professional, tech-forward events that elevate your brand.",
-    imageUrl: "https://placehold.co/600x400/1a1a1a/ffffff?text=Corporate+Event",
+    imageUrl: "/images/zoro-company.png",
     Icon: Briefcase,
   },
   {
     title: "Weddings & Celebrations",
     description:
       "Creating timeless memories with bespoke planning for weddings, baptisms, and every personal milestone you cherish.",
-    imageUrl: "https://placehold.co/600x400/c7a587/ffffff?text=Wedding",
+    imageUrl: "/images/zoro-wedding.png",
     Icon: Heart,
   },
   {
     title: "College & Campus Fests",
     description:
       "We bring unmatched energy and scale to college tech fests, arts festivals, and campus celebrations that students will never forget.",
-    imageUrl: "https://placehold.co/600x400/4a4a4a/ffffff?text=College+Fest",
+    imageUrl: "/images/zoro-campus.png",
     Icon: School,
   },
 ];
