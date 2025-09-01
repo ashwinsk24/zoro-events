@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 // **IMPORTANT**: Replace with your actual business WhatsApp number.
-const whatsappUrl = "https://wa.me/918606693695?text=Hello!%20I'm%20interested%20in%20ZORO%20Events%20and%20would%20like%20to%20get%20a%20quote.";
-
+const whatsappUrl =
+  "https://wa.me/918606693695?text=Hello!%20I'm%20interested%20in%20ZORO%20Events%20and%20would%20like%20to%20get%20a%20quote.";
 
 export default function CallToAction() {
   return (
@@ -30,7 +30,7 @@ export default function CallToAction() {
         <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
           Let's Create Something Unforgettable
         </h2>
-        <p className="mt-6 text-lg leading-8 text-gray-300">
+        <p className="mt-6 text-lg leading-8 text-gray-100">
           Have an idea for your next corporate summit, dream wedding, or college
           fest? Our team is ready to bring your story to the stage.
         </p>

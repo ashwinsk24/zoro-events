@@ -38,7 +38,7 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p
-          className="mt-6 max-w-3xl mx-auto text-base sm:text-lg leading-relaxed text-gray-200"
+          className="mt-6 max-w-3xl mx-auto text-base sm:text-lg leading-relaxed text-gray-100"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
