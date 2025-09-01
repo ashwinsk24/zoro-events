@@ -15,8 +15,10 @@ export default function Hero() {
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
         poster="https://placehold.co/1920x1080/000000/FFFFFF?text=ZORO+EVENTS"
       >
-        {/* IMPORTANT: Replace this with your actual showreel video URL */}
-        <source src="/images/showreel.mp4" type="video/mp4" />
+        {/* Provide WebM first for modern browsers */}
+        <source src="/videos/showreel.webm" type="video/webm" />
+        {/* MP4 as a fallback */}
+        <source src="/videos/showreel.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
