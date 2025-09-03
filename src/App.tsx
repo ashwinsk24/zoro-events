@@ -39,6 +39,10 @@ function App() {
           name="description"
           content="ZORO Events crafts unforgettable corporate events, weddings, campus fests, and expos in Kerala."
         />
+        <meta
+          name="google-site-verification"
+          content="RuH6SBfkhaj6k1zwC9j7rgu3sYOaZYRadjr3qIiqYw8"
+        />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
       <main>
