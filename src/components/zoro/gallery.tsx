@@ -16,50 +16,49 @@ const items = [
   {
     id: 1,
     category: "Weddings",
-    imageUrl: "https://placehold.co/600x800/c7a587/ffffff?text=Wedding+1",
+    imageUrl: "/images/zoro1.webp",
     title: "Lakeside Union",
   },
   {
     id: 2,
     category: "Corporate",
-    imageUrl:
-      "https://placehold.co/800x600/1a1a1a/ffffff?text=Corporate+Launch",
+    imageUrl: "/images/zoro2.webp",
     title: "Tech Summit 2025",
   },
   {
     id: 3,
     category: "College",
-    imageUrl: "https://placehold.co/600x800/4a4a4a/ffffff?text=College+Fest+1",
+    imageUrl: "/images/zoro3.webp",
     title: "Vibrations '25",
   },
   {
     id: 4,
     category: "Weddings",
-    imageUrl: "https://placehold.co/800x600/d1bfa7/ffffff?text=Wedding+2",
+    imageUrl: "/images/zoro4.webp",
     title: "Garden Vows",
   },
   {
     id: 5,
     category: "Corporate",
-    imageUrl: "https://placehold.co/600x800/2c2c2c/ffffff?text=Expo",
+    imageUrl: "/images/zoro5.webp",
     title: "Future Innovations Expo",
   },
   {
     id: 6,
     category: "College",
-    imageUrl: "https://placehold.co/800x600/5f5f5f/ffffff?text=Arts+Fest",
+    imageUrl: "/images/zoro6.webp",
     title: "Canvas & Beats",
   },
   {
     id: 7,
     category: "Weddings",
-    imageUrl: "https://placehold.co/600x800/bfa990/ffffff?text=Reception",
+    imageUrl: "/images/zoro7.webp",
     title: "Twilight Celebration",
   },
   {
     id: 8,
     category: "Corporate",
-    imageUrl: "https://placehold.co/800x600/3d3d3d/ffffff?text=Conference",
+    imageUrl: "/images/zoro8.webp",
     title: "Global Marketers Meet",
   },
 ];
