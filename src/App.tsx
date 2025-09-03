@@ -3,6 +3,7 @@ import Header from "./components/zoro/header";
 import Hero from "./components/zoro/hero";
 import Services from "./components/zoro/services";
 import Gallery from "./components/zoro/gallery";
+import UpcomingEvents from "./components/zoro/upcomingEvents";
 import Process from "./components/zoro/process";
 import Testimonials from "./components/zoro/testimonials";
 import Faq from "./components/zoro/faq";
@@ -14,11 +15,11 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "ZORO EVENTS AND ENTERTAINMENTS",
   image: "../public/images/zoro-logo.png",
-  telephone: "+91-00000-00000",
+  telephone: "+91-86066-93695",
   email: "hello@zoroevents.in",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Your Street Address",
+    streetAddress: "Mekkad",
     addressLocality: "Angamaly",
     addressRegion: "Kerala",
     postalCode: "683572",
@@ -26,7 +27,7 @@ const jsonLd = {
   },
   description:
     "ZORO is a full-service event management company in Kerala, handling corporate, personal, and campus events.",
-  url: "https://zoro-events.example.com",
+  url: "https://zoro-events-h1qc.vercel.app/",
 };
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Header />
         <Hero />
         <Services />
+        <UpcomingEvents />
         <Gallery />
         <Process />
         <Testimonials />

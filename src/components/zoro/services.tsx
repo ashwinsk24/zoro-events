@@ -6,21 +6,21 @@ const services = [
     title: "Corporate & Expos",
     description:
       "From high-impact product launches to large-scale expositions, we deliver professional, tech-forward events that elevate your brand.",
-    imageUrl: "/images/zoro-company.png",
+    imageUrl: "/images/zoro-company.webp",
     Icon: Briefcase,
   },
   {
     title: "Weddings & Celebrations",
     description:
       "Creating timeless memories with bespoke planning for weddings, baptisms, and every personal milestone you cherish.",
-    imageUrl: "/images/zoro-wedding.png",
+    imageUrl: "/images/zoro-wedding.webp",
     Icon: Heart,
   },
   {
     title: "College & Campus Fests",
     description:
       "We bring unmatched energy and scale to college tech fests, arts festivals, and campus celebrations that students will never forget.",
-    imageUrl: "/images/zoro-campus.png",
+    imageUrl: "/images/zoro-campus.webp",
     Icon: School,
   },
 ];

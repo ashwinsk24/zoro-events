@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Phone } from "lucide-react";
+import { Instagram, Dribbble, Phone } from "lucide-react";
 
 const whatsappUrl =
   "https://wa.me/918606693695?text=Hello!%20I'm%20interested%20in%20ZORO%20Events.";
@@ -31,7 +31,7 @@ const navigation = {
       href: "https://www.instagram.com/official_teamzoro",
       icon: Instagram,
     },
-    { name: "LinkedIn", href: "#", icon: Linkedin },
+    { name: "Dribbble", href: "#", icon: Dribbble },
   ],
   links: [
     { name: "Corporate Events", href: "#gallery" },
@@ -61,11 +61,9 @@ export default function Footer() {
                 <br />
               </span>
             </div>
-            <span className="text-base font-semibold tracking-wide">
-              Your Story. Our Stage.
-            </span>
 
             <p className="mt-4 text-sm text-gray-400 leading-6">
+              <b>Your Story, Our Stage. </b> <br />
               From spectacular corporate events and unforgettable weddings to
               high-energy college fests, we bring your vision to life with
               precision and passion.
@@ -92,7 +90,7 @@ export default function Footer() {
             <h3 className="text-sm font-semibold leading-6">Get in Touch</h3>
             <div className="mt-4 space-y-3 text-sm text-gray-400">
               <p>
-                Angamaly, Ernakulam <br />
+                Angamaly, Ernakulam <br /> Kerala, India
               </p>
               <a
                 href={whatsappUrl}

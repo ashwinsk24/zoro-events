@@ -10,15 +10,24 @@ function cn(...inputs: string[]) {
 
 // Updated navigation links to reflect the new, broader scope
 const nav = [
+  { label: "Live", href: "#upcoming", isLive: true },
   { label: "Services", href: "#services" },
   { label: "Gallery", href: "#gallery" },
   { label: "Process", href: "#process" },
-  { label: "Contact", href: "#contact" },
+  { label: "Connect", href: "#contact" },
 ];
 
 // **IMPORTANT**: Replace with your actual business WhatsApp number.
 const whatsappUrl =
   "https://wa.me/918606693695?text=Hello!%20I'm%20interested%20in%20ZORO%20Events%20and%20would%20like%20to%20get%20a%20quote.";
+
+// A small component for the "Live" indicator
+const LiveIndicator = () => (
+  <span className="ml-2 relative inline-flex items-center h-2 w-2">
+    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+    <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+  </span>
+);
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -52,7 +61,7 @@ export default function Header() {
         <a
           href="/"
           className="flex items-center gap-3"
-          aria-label="ZORO Events home"
+          aria-label="ZORO Events Home"
         >
           {/* Dynamically switch between the white and black logo */}
           <img
@@ -90,6 +99,7 @@ export default function Header() {
               )}
             >
               {n.label}
+              {n.isLive && <LiveIndicator />}
             </a>
           ))}
           <a
@@ -137,10 +147,13 @@ export default function Header() {
                 onClick={() => setOpen(false)}
               >
                 {n.label}
+                {n.isLive && <LiveIndicator />}
               </a>
             ))}
             <a
-              href="#contact"
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-2 w-full rounded-md border border-black bg-black px-3 py-2 text-center text-sm font-medium text-white hover:bg-white hover:text-black"
               onClick={() => setOpen(false)}
             >

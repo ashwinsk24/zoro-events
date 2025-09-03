@@ -32,7 +32,7 @@ export default function Process() {
   return (
     <section
       id="process"
-      className="py-20 sm:py-24 bg-white"
+      className="py-20 sm:py-24 bg-gray-50"
       aria-labelledby="process-title"
     >
       <div className="mx-auto max-w-7xl px-6">

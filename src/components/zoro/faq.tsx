@@ -71,7 +71,7 @@ export default function Faq() {
   return (
     <section
       id="faq"
-      className="py-20 sm:py-24 bg-white"
+      className="py-20 sm:py-24 bg-gray-50"
       aria-labelledby="faq-title"
     >
       <div className="mx-auto max-w-7xl px-6">

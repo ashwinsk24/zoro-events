@@ -11,7 +11,7 @@ export default function CallToAction() {
       <div className="absolute inset-0">
         <img
           className="h-full w-full object-cover"
-          src="/images/zoro-banner.png"
+          src="/images/zoro-banner.webp"
           alt="A vibrant event managed by ZORO"
         />
         <div
