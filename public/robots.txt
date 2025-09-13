@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://zoroevents.vercel.app/sitemap.xml
