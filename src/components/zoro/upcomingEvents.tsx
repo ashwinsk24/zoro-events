@@ -10,7 +10,7 @@ const events = [
     date: "September 14, 2025",
     location: "Virtual",
     imageUrl: "/images/zoro-event1.jpg",
-    status: "live",
+    status: "closed",
     registrationLink: "https://forms.gle/zSZHKwsaa4CjGyKS9",
     fullDescription: `
 🔹 General Rules
@@ -43,7 +43,7 @@ Abhimanyu V M : 9074873447`,
     date: "September 14, 2025",
     location: "Virtual",
     imageUrl: "/images/zoro-event2.jpg",
-    status: "live",
+    status: "closed",
     registrationLink: "https://forms.gle/KdbBSKETxNtyrvhc8",
     fullDescription: `
 🔹 General Rules
@@ -81,7 +81,7 @@ Ajin Reji : 6282152553`,
     date: "September 14, 2025",
     location: "Virtual",
     imageUrl: "/images/zoro-event3.jpg",
-    status: "live",
+    status: "closed",
     registrationLink: "https://forms.gle/VshMSuKK3X5cu8SRA",
     fullDescription: `
 🔹 General Guidelines
