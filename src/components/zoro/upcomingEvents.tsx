@@ -120,16 +120,6 @@ For any queries, contact :
 Harikrishnan U : 6282335105
     `,
   },
-  {
-    title: "Closed Event",
-    date: "August 14, 2025",
-    location: "Undisclosed Location",
-    imageUrl: "/images/zoro-campus.webp",
-    status: "closed",
-    registrationLink: "#",
-    fullDescription:
-      "This was a private event. Details are not publicly available.",
-  },
 ];
 
 // Define the type for a single event
@@ -180,7 +170,7 @@ const EventModal = ({
           animate={{ scale: 1, y: 0 }}
           exit={{ scale: 0.9, y: 20 }}
           className="relative bg-white rounded-2xl shadow-2xl w-full max-w-5xl max-h-[85vh] overflow-hidden flex"
-          onClick={(e) => e.stopPropagation()}
+          onClick={(e: { stopPropagation: () => any; }) => e.stopPropagation()}
         >
           {/* Left side - Poster */}
           <div className="w-2/5 flex-shrink-0 relative overflow-hidden flex items-center justify-center">
